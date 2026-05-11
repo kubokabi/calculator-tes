@@ -1,0 +1,21 @@
+{
+  "name": "hagematech-calc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hagematech-calc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kubokabi/calculator-tes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kubokabi/calculator-tes/issues"
+  },
+  "homepage": "https://github.com/kubokabi/calculator-tes#readme"
+}

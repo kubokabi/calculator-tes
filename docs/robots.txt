@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kubokabi.github.io/calculator-hagematech/sitemap.xml

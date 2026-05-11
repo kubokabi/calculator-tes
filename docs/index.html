@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Hagematech Calculator - Scientific Calculator Web Component</title>
+
+  <meta
+    name="description"
+    content="Hagematech Calculator is a modern scientific calculator Web Component with gradient themes, custom hex colors, memory functions, keyboard support, and bilingual guide book."
+  />
+
+  <meta
+    name="keywords"
+    content="calculator, scientific calculator, web component, custom element, javascript calculator, html calculator, mathjs, shadow dom, hagematech"
+  />
+
+  <link rel="canonical" href="https://kubokabi.github.io/calculator-hagematech/" />
+
+  <meta property="og:title" content="Hagematech Calculator" />
+  <meta
+    property="og:description"
+    content="A modern scientific calculator Web Component with gradients, custom colors, memory functions, and keyboard support."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://kubokabi.github.io/calculator-hagematech/" />
+
+  <script src="https://cdn.jsdelivr.net/npm/calculator-hagematech@1.0.0"></script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 32px;
+      background: #f1f5f9;
+      font-family: Arial, sans-serif;
+      color: #0f172a;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .hero {
+      margin-bottom: 32px;
+    }
+
+    .hero h1 {
+      margin: 0 0 12px;
+      font-size: 40px;
+      line-height: 1.1;
+    }
+
+    .hero p {
+      max-width: 720px;
+      margin: 0 0 20px;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #475569;
+    }
+
+    .install-box {
+      display: inline-block;
+      padding: 12px 16px;
+      background: #0f172a;
+      color: #ffffff;
+      border-radius: 12px;
+      font-family: monospace;
+    }
+
+    h2 {
+      margin-top: 40px;
+      margin-bottom: 16px;
+    }
+
+    .demo-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      align-items: flex-start;
+    }
+
+    .demo-card {
+      padding: 16px;
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+    }
+
+    .demo-card h3 {
+      margin: 0 0 12px;
+      color: #334155;
+      font-size: 16px;
+    }
+
+    pre {
+      overflow-x: auto;
+      padding: 16px;
+      background: #0f172a;
+      color: #e2e8f0;
+      border-radius: 12px;
+    }
+
+    a {
+      color: #2563eb;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Hagematech Calculator</h1>
+      <p>
+        A modern scientific calculator Web Component with gradient themes,
+        custom hex colors, memory functions, keyboard support, and bilingual Guide Book.
+      </p>
+
+      <div class="install-box">npm install calculator-hagematech</div>
+    </section>
+
+    <h2>Basic Usage</h2>
+
+    <pre><code>&lt;script src="https://cdn.jsdelivr.net/npm/calculator-hagematech@1.0.0"&gt;&lt;/script&gt;
+
+&lt;calculator-hagematech&gt;&lt;/calculator-hagematech&gt;</code></pre>
+
+    <h2>Default Calculator</h2>
+
+    <div class="demo-card">
+      <calculator-hagematech></calculator-hagematech>
+    </div>
+
+    <h2>Gradient Themes</h2>
+
+    <div class="demo-grid">
+      <div class="demo-card">
+        <h3>Aurora</h3>
+        <calculator-hagematech gradient="aurora"></calculator-hagematech>
+      </div>
+
+      <div class="demo-card">
+        <h3>Sunset</h3>
+        <calculator-hagematech gradient="sunset"></calculator-hagematech>
+      </div>
+
+      <div class="demo-card">
+        <h3>Ocean</h3>
+        <calculator-hagematech gradient="ocean"></calculator-hagematech>
+      </div>
+
+      <div class="demo-card">
+        <h3>Forest</h3>
+        <calculator-hagematech gradient="forest"></calculator-hagematech>
+      </div>
+
+      <div class="demo-card">
+        <h3>Grape</h3>
+        <calculator-hagematech gradient="grape"></calculator-hagematech>
+      </div>
+
+      <div class="demo-card">
+        <h3>Gold</h3>
+        <calculator-hagematech gradient="gold"></calculator-hagematech>
+      </div>
+    </div>
+
+    <h2>Custom Hex Colors</h2>
+
+    <div class="demo-grid">
+      <div class="demo-card">
+        <h3>Sky Blue</h3>
+        <calculator-hagematech color="#0ea5e9"></calculator-hagematech>
+      </div>
+
+      <div class="demo-card">
+        <h3>Red</h3>
+        <calculator-hagematech color="#dc2626"></calculator-hagematech>
+      </div>
+
+      <div class="demo-card">
+        <h3>Green</h3>
+        <calculator-hagematech color="#16a34a"></calculator-hagematech>
+      </div>
+
+      <div class="demo-card">
+        <h3>Purple</h3>
+        <calculator-hagematech color="#7c3aed"></calculator-hagematech>
+      </div>
+    </div>
+
+    <h2>Links</h2>
+
+    <p>
+      <a href="https://www.npmjs.com/package/calculator-hagematech">View on npm</a>
+      ·
+      <a href="https://github.com/kubokabi/calculator-hagematech">View on GitHub</a>
+    </p>
+  </main>
+
+</body>
+</html>

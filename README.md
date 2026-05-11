@@ -17,7 +17,7 @@ Use it with one simple HTML tag:
 <p align="center">
   <img 
     src="docs/images/hagematech-calc-aurora.png" 
-    alt="Hagematech Calculator Aurora" 
+    alt="Hagematech Calculator" 
     width="320"
   />
 </p>
@@ -32,7 +32,13 @@ Copy and paste:
 
 ### Ocean Gradient
 
-![Hagematech Calculator Ocean](docs/images/hagematech-calc-ocean.png)
+<p align="center">
+  <img 
+    src="docs/images/hagematech-calc-ocean.png" 
+    alt="Hagematech Calculator" 
+    width="320"
+  />
+</p>
 
 Copy and paste:
 
@@ -44,7 +50,13 @@ Copy and paste:
 
 ### Forest Gradient
 
-![Hagematech Calculator Forest](docs/images/hagematech-calc-forest.png)
+<p align="center">
+  <img 
+    src="docs/images/hagematech-calc-forest.png" 
+    alt="Hagematech Calculator" 
+    width="320"
+  />
+</p>
 
 Copy and paste:
 
@@ -56,7 +68,13 @@ Copy and paste:
 
 ### Custom Hex Color
 
-![Hagematech Calculator Custom Color](docs/images/hagematech-calc-custom-color.png)
+<p align="center">
+  <img 
+    src="docs/images/hagematech-calc-custom-color.png" 
+    alt="Hagematech Calculator" 
+    width="320"
+  />
+</p>
 
 Copy and paste:
 

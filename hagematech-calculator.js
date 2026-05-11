@@ -1,5 +1,5 @@
-class HagematechCalc extends HTMLElement {
-    static tagName = 'hagematech-calc';
+class HagematechCalculator extends HTMLElement {
+    static tagName = 'hagematech-calculator';
     static mathJsUrl = 'https://cdn.jsdelivr.net/npm/mathjs@15.2.0/lib/browser/math.js';
     static mathLoader = null;
 

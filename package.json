@@ -1,21 +1,21 @@
 {
-  "name": "hagematech-calc",
+  "name": "hagematech-calculator",
   "version": "1.0.0",
-  "description": "",
-  "main": "hagematech-calc.js",
+  "description": "A simple JavaScript calculator library by HagemMatech.",
+  "main": "hagematech-calculator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kubokabi/calculator-tes.git"
+    "url": "git+https://github.com/kubokabi/hagematech-calc.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/kubokabi/calculator-tes/issues"
+    "url": "https://github.com/kubokabi/hagematech-calc/issues"
   },
-  "homepage": "https://github.com/kubokabi/calculator-tes#readme"
+  "homepage": "https://github.com/kubokabi/hagematech-calc#readme"
 }
